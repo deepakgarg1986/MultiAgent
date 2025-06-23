@@ -1,15 +1,15 @@
 name: Test Automation MACAE
 
-on:
-  push:
-    branches:
-      - main
-      - dev
-    paths:
-      - 'tests/e2e-test/**'
-  schedule:
-      - cron: '0 13 * * *'  # Runs at 1 PM UTC
-  workflow_dispatch:
+#on:
+#  push:
+#    branches:
+#      - main
+#      - dev
+#    paths:
+#      - 'tests/e2e-test/**'
+#  schedule:
+#      - cron: '0 13 * * *'  # Runs at 1 PM UTC
+#  workflow_dispatch:
 
 env:
     url: ${{ vars.MACAE_WEB_URL }}

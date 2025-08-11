@@ -387,6 +387,11 @@ The `HumanFeedbackStatus` enumeration defines the possible statuses for human fe
 - **`addressed`**: Indicates the feedback has been addressed.
 - **`rejected`**: Indicates the feedback has been rejected.
 
+#### **`MachineFeedbackStatus`**
+The `HumanFeedbackStatus` enumeration defines the possible statuses for human feedback. Possible values include:
+- **`pending`**: Indicates the feedback is awaiting review or action.
+- **`addressed`**: Indicates the feedback has been addressed.
+- **`rejected`**: Indicates the feedback has been rejected.
 
 ### Application Flow
 
